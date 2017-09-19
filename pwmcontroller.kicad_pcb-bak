@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 0.75)
@@ -640,7 +640,7 @@
     (fp_text reference R1 (at 5.08 -2.31 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100K (at 5.08 2.31 270) (layer F.Fab)
+    (fp_text value 1K (at 5.08 2.31 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.93 -1.25) (end 1.93 1.25) (layer F.Fab) (width 0.1))
@@ -1682,8 +1682,8 @@
   (segment (start 147.574 89.408) (end 146.812 90.17) (width 1.5) (layer F.Cu) (net 10) (tstamp 59C099CD))
   (segment (start 150.114 89.408) (end 147.574 89.408) (width 1.5) (layer F.Cu) (net 10) (tstamp 59C099CC))
   (segment (start 152.52 91.814) (end 150.114 89.408) (width 1.5) (layer F.Cu) (net 10) (tstamp 59C099CB))
-  (segment (start 160.274 93.98) (end 160.274 91.948) (width 0.5) (layer B.Cu) (net 11) (status 400000))
-  (segment (start 149.98 92.082) (end 149.98 94) (width 0.5) (layer B.Cu) (net 11) (tstamp 59C0BA0D) (status 800000))
+  (segment (start 160.274 93.98) (end 160.274 91.948) (width 0.5) (layer B.Cu) (net 11))
+  (segment (start 149.98 92.082) (end 149.98 94) (width 0.5) (layer B.Cu) (net 11) (tstamp 59C0BA0D))
   (segment (start 150.876 91.186) (end 149.98 92.082) (width 0.5) (layer B.Cu) (net 11) (tstamp 59C0BA0C))
   (segment (start 152.794 91.186) (end 150.876 91.186) (width 0.5) (layer B.Cu) (net 11) (tstamp 59C0BA0A))
   (segment (start 159.512 91.186) (end 152.794 91.186) (width 0.5) (layer B.Cu) (net 11) (tstamp 59C0BA09))
