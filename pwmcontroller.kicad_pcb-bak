@@ -5,7 +5,7 @@
     (no_connects 1)
     (area 136.349714 88.513 177.594286 136.123)
     (thickness 1.6)
-    (drawings 5)
+    (drawings 6)
     (tracks 72)
     (zones 0)
     (modules 19)
@@ -1623,6 +1623,9 @@
     )
   )
 
+  (gr_text "PWM Controller v2.0\nMatthew Treinish" (at 141.224 121.666 90) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+  )
   (gr_line (start 174.498 89.916) (end 174.244 89.916) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 139.446 89.916) (end 174.498 89.916) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 139.446 134.366) (end 139.446 89.916) (angle 90) (layer Edge.Cuts) (width 0.15))
